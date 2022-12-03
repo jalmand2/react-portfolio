@@ -1,21 +1,26 @@
-import Nav from './Nav';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import React, {useState} from 'react';
+
+import './App.css';
+
+import Nav from './components/Nav';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const [pageIndex, setPageIndex] = useState(0);
 
-  return {
-    <div className="App">
-    <Nav 
-    showAbout={() => setPageIndex(0)}
-    showProjects={() => setPageIndex(1)}
-    showContact={() => setPageIndex(2)}
-    showResume={() => setPageIndex(3)}
+  return (
+    < div className = "App" >
+    <Nav
+      showAbout={() => setPageIndex(0)}
+      showProjects={() => setPageIndex(1)}
+      showContact={() => setPageIndex(2)}
+      showResume={() => setPageIndex(3)}
     />
-    {pageIndex === 0 ? (
+  {
+    pageIndex === 0 ? (
       <About />
     ) : pageIndex === 1 ? (
       <Portfolio />
@@ -23,9 +28,11 @@ function App() {
       <Contact />
     ) : pageIndex === 3 ? (
       <Resume />
+    ) : (
+      <About />
     )}
-    </div>
-  };
+    </div >
+);
 }
 
 export default App;
