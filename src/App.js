@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import './App.css';
+import './components/styles/header.css';
 
 import Nav from './components/Nav';
 import About from './components/About';
@@ -12,7 +12,7 @@ function App() {
   const [pageIndex, setPageIndex] = useState(0);
 
   return (
-    < div className = "App" >
+    < div className = "header" >
     <Nav
       showAbout={() => setPageIndex(0)}
       showProjects={() => setPageIndex(1)}
