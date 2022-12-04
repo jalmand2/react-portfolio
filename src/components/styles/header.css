@@ -11,6 +11,6 @@
     color: var(--pale-spring-bud);
   }
 
-.about {
-
+html {
+    background: var(--silver-chalice);
 }
