@@ -5,10 +5,10 @@ const Nav = ({ showAbout, showProjects, showContact, showResume }) => {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
              <h1>Jessica Almand</h1>
              <ul style={{listStyle: 'none', display: 'flex', marginRight: '5rem' }}>
-        <li onClick={showAbout}>About</li>
-        <li onClick={showProjects}>Projects</li>
-        <li onClick={showContact}>Contact</li>
-        <li onClick={showResume}>Resume</li>
+        <li style={{marginLeft: '10px'}} onClick={showAbout}>About</li>
+        <li style={{marginLeft: '10px'}} onClick={showProjects}>Projects</li>
+        <li style={{marginLeft: '10px'}} onClick={showContact}>Contact</li>
+        <li style={{marginLeft: '10px'}} onClick={showResume}>Resume</li>
         </ul>
         </div>
     );

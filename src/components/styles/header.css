@@ -1,8 +1,16 @@
+:root {
+--light-yellow: #f8fcdaff;
+--pale-spring-bud: #e3e9c2ff;
+--lemon-yellow-crayola: #f9fbb2ff;
+--raw-umber: #7c6354ff;
+--silver-chalice: #a5abafff;
+}
 .header {
-    background: #f9b713;
+    background: var(--raw-umber);
     height: 200px;
+    color: var(--pale-spring-bud);
   }
 
 .about {
-    
+
 }
