@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../components/styles/header.css';
 
 const Nav = ({ showAbout, showProjects, showContact, showResume }) => {
     return (
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+        <div class='header' style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
              <h1 style={{marginLeft: '10px'}}>Jessica Almand</h1>
              <ul style={{listStyle: 'none', display: 'flex', marginRight: '5rem' }}>
         <li style={{marginLeft: '10px'}} onClick={showAbout}>About</li>

@@ -12,7 +12,7 @@ function App() {
   const [pageIndex, setPageIndex] = useState(0);
 
   return (
-    < div className = "header" >
+    < div >
     <Nav
       showAbout={() => setPageIndex(0)}
       showProjects={() => setPageIndex(1)}
