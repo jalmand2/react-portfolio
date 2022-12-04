@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../components/styles/header.css';
+import '../../components/styles/app.css';
 
 const Nav = ({ showAbout, showProjects, showContact, showResume }) => {
     return (
