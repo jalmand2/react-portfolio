@@ -5,6 +5,9 @@
 --raw-umber: #7c6354ff;
 --silver-chalice: #a5abafff;
 }
+.root {
+  background-image: '../styles/background.jpg';
+}
 .header {
     background-color: var(--raw-umber);
     height: 200px;

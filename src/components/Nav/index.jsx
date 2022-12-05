@@ -11,7 +11,7 @@ const Nav = ({ showAbout, showProjects, showContact, showResume }) => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <ul class="nav-item nav-link active" style={{ listStyle: 'none', display: 'flex', marginRight: '5rem' }}>
+                        <ul style={{ listStyle: 'none', display: 'flex', marginRight: '5rem' }}>
                             <li class="nav-item nav-link" style={{ marginLeft: '10px' }} onClick={showAbout}>About</li>
                             <li class="nav-item nav-link" style={{ marginLeft: '10px' }} onClick={showProjects}>Projects</li>
                             <li class="nav-item nav-link" style={{ marginLeft: '10px' }} onClick={showContact}>Contact</li>
