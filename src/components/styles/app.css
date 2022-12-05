@@ -5,13 +5,17 @@
 --raw-umber: #7c6354ff;
 --silver-chalice: #a5abafff;
 }
-* {
-  color: var(--pale-spring-bud);
-}
 .header {
-    background-image: ;
+    background-color: var(--raw-umber);
     height: 200px;
   }
 .about {
   background: var(--silver-chalice);
+  color: var(--silver-chalice);
+}
+.navbar-toggler-icon {
+  color: var(--pale-spring-bud)
+}
+.innerbox {
+  background: var(--light-yellow);
 }
