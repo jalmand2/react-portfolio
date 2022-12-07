@@ -6,11 +6,11 @@
 --silver-chalice: #a5abafff;
 }
 .root {
-  background-image: '../styles/background.jpg';
+  background-image: '/images/background.jpg';
 }
 .header {
-    background-color: var(--raw-umber);
-    height: 200px;
+    background-color: var(--lemon-yellow-crayola);
+    height: 100px;
   }
 .about {
   background: var(--silver-chalice);
@@ -20,8 +20,5 @@
   color: var(--pale-spring-bud)
 }
 .innerbox {
-  background: var(--light-yellow);
-}
-.projects {
-  margin-left: 200px;
+  background-image: '/images/background.jpg';
 }
