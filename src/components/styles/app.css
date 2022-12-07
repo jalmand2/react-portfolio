@@ -1,24 +1,23 @@
 :root {
---light-yellow: #f8fcdaff;
---pale-spring-bud: #e3e9c2ff;
---lemon-yellow-crayola: #f9fbb2ff;
---raw-umber: #7c6354ff;
---silver-chalice: #a5abafff;
+  --pink-lavender: #e5beedff;
+  --blue-bell: #9593d9ff;
+  --cornflower-blue: #7c90dbff;
+  --rhythm: #736b92ff;
+  --deep-taupe: #7d5c65ff;
 }
-.root {
-  background-image: '/images/background.jpg';
+.nav-link {
+  color: var(--pink-lavender);
 }
 .header {
-    background-color: var(--lemon-yellow-crayola);
+    background-color: var(--deep-taupe);
     height: 100px;
   }
 .about {
-  background: var(--silver-chalice);
-  color: var(--silver-chalice);
+  color: white;
+  font-weight: 500;
 }
-.navbar-toggler-icon {
-  color: var(--pale-spring-bud)
+.contact {
+  color: var(--deep-taupe);
 }
-.innerbox {
-  background-image: '/images/background.jpg';
-}
+
+

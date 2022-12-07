@@ -12,7 +12,7 @@ function App() {
   const [pageIndex, setPageIndex] = useState(0);
 
   return (
-    <div class='root'>
+    <div class="root bg-image" style={{backgroundColor: '#9593d9ff'}}>
     <Nav
       showAbout={() => setPageIndex(0)}
       showProjects={() => setPageIndex(1)}
