@@ -22,3 +22,6 @@
 .innerbox {
   background: var(--light-yellow);
 }
+.projects {
+  margin-left: 200px;
+}

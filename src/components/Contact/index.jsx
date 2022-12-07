@@ -6,7 +6,7 @@ const Contact = () => {
             <div class="p-5 my-4 bg-light rounded-3 innerbox">
                 <h1>Contact Me</h1>
                 <section class="mb-4">
-                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+                    <p class="w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
                     <div class="row">
                         <div class="col-md-9 mb-md-0 mb-5">
                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -47,7 +47,7 @@ const Contact = () => {
                             </form>
 
                             <div class="text-center text-md-left">
-                                <button class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</button>
+                                <button class="btn btn-secondary" onclick="document.getElementById('contact-form').submit();">Send</button>
                             </div>
                             <div class="status"></div>
                         </div>
