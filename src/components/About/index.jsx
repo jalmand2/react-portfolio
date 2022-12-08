@@ -9,6 +9,53 @@ const About = () => {
                 <img src="/images/profile.jpg" alt="profile" class="img-thumbnail"></img>
                 <p class="lead">Hi! My name is Jessica Almand and I am an aspiring full-stack web developer. I am currently in training through the University of Central Florida where I am enrolled in the Full-Stack Web Development Coding Bootcamp. My anticipated graduation is set for December of 2022. I received my Bachelor of Science in Psychology in May of 2022 at Colorado State University. </p>
             </div>
+            <div id="skills" class="content-section-b" style={{borderTop: '0'}}>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>My Skills</h2>
+                </div>
+            </div>
+            <div class="row tworow">
+            <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon class="rotate" icon="mdi:react" width="100" height="100"></iconify-icon>
+                    <h3>React.js</h3>
+                </div>
+                <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon class="rotate" icon="mdi:language-javascript" width="100" height="100"></iconify-icon>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon class="rotate" icon="mdi:language-html5" width="100" height="100"></iconify-icon>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon class="rotate" icon="tabler:brand-css3" width="100" height="100"></iconify-icon>
+                    <h3>CSS3</h3>
+                </div>
+              <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                  <iconify-icon class="rotate" icon="mdi:git" width="100" height="100"></iconify-icon>
+                  <h3>Git</h3>
+              </div>
+                <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon class="rotate" icon="mdi:npm" width="100" height="100"></iconify-icon>
+                    <h3>Npm</h3>
+                </div>
+                <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon class="rotate" icon="mdi:bootstrap" width="100" height="100"></iconify-icon>
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon icon="bxl:heroku" width="100" height="100"></iconify-icon>
+                    <h3>Heroku</h3>
+                </div>
+                <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
+                <iconify-icon icon="tabler:brand-mysql" width="100" height="100"></iconify-icon>
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+        </div>
+    </div>
         </div>
         
     );
