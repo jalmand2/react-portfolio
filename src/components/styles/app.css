@@ -1,19 +1,17 @@
 :root {
-  --pink-lavender: #e5beedff;
-  --blue-bell: #9593d9ff;
-  --cornflower-blue: #7c90dbff;
-  --rhythm: #736b92ff;
-  --deep-taupe: #7d5c65ff;
+  --raisin-black: #252323ff;
+  --slate-gray: #70798cff;
+  --isabelline: #f5f1edff;
+  --bone: #dad2bcff;
+  --grullo: #a99985ff;
 }
-.nav-link {
-  color: var(--pink-lavender);
-}
+
 .header {
-    background-color: var(--deep-taupe);
+    background-color: var(--bone);
     height: 100px;
   }
 .about {
-  color: white;
+  color: var(--raisin-black);
   font-weight: 500;
 }
 .contact {
