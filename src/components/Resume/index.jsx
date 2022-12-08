@@ -3,7 +3,7 @@ import React from 'react';
 const Resume = () => {
     return (
         <div class="container about">
-        <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: "url(/images/background.jpg)", backgroundSize: 'cover'}}>
+        <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: "url(images/background.jpg)", backgroundSize: 'cover'}}>
             <h1>Resume</h1>
             
             <p class="lead">Download my <a href="https://docs.google.com/document/d/1qBjxV3FcT0bMTI6ZRg1_ECFtkwx25wnC/edit?usp=sharing&ouid=108866049119222675329&rtpof=true&sd=true">Resume</a></p>
