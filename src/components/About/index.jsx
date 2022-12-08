@@ -10,6 +10,7 @@ const About = () => {
                 <p class="lead">Hi! My name is Jessica Almand and I am an aspiring full-stack web developer. I am currently in training through the University of Central Florida where I am enrolled in the Full-Stack Web Development Coding Bootcamp. My anticipated graduation is set for December of 2022. I received my Bachelor of Science in Psychology in May of 2022 at Colorado State University. </p>
             </div>
         </div>
+        
     );
 };
 
