@@ -37,19 +37,25 @@ const Portfolio = () => {
         </div>
       </div>
       <div class="card" style={{width: '18rem'}}>
-        <div class="card-img-top" src=".../100px180/" alt="Card image cap"></div>
+        <img class="card-img-top" src="/images/workscheduler.jpg" alt="Work Scheduler"></img>
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://github.com/Tab-Y/anime-tracker" class="btn btn-secondary">Github</a>
+          <h5 class="card-title text-center">Work Scheduler</h5>
+          <p class="card-text text-center">A calendar application using HTML and CSS via jQuery.</p>
+          <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+          <a href="https://github.com/jalmand2/Work-Day-Scheduler" class="btn btn-secondary">Github</a>
+          <a href="https://jalmand2.github.io/Work-Day-Scheduler/" class="btn btn-secondary">Link</a>
+          </div>
         </div>
       </div>
       <div class="card" style={{width: '18rem'}}>
-        <div class="card-img-top" src=".../100px180/" alt="Card image cap"></div>
+        <div class="card-img-top" src="/images/workscheduler.jpeg" alt="Work Scheduler"></div>
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title text-center">App</h5>
+          <p class="card-text text-center">A simple calendar application featuring HTML and CSS powered by jQuery.</p>
+          <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
           <a href="https://github.com/Tab-Y/anime-tracker" class="btn btn-secondary">Github</a>
+          <a href="https://github.com/Tab-Y/anime-tracker" class="btn btn-secondary">Link</a>
+          </div>
         </div>
       </div>
       <div class="card" style={{width: '18rem'}}>
