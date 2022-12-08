@@ -26,11 +26,14 @@ const Portfolio = () => {
         </div>
       </div>
       <div class="card" style={{width: '18rem'}}>
-        <div class="card-img-top" src=".../100px180/" alt="Card image cap"></div>
+        <img class="card-img-top" src="/images/notetaker.png" alt="Note Taker"></img>
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://github.com/Tab-Y/anime-tracker" class="btn btn-secondary">Github</a>
+          <h5 class="card-title text-center">Note Taker</h5>
+          <p class="card-text text-center">A backend-focused application using Express.js.</p>
+          <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+          <a href="https://github.com/jalmand2/Note-Taker" class="btn btn-secondary">Github</a>
+          <a href="https://murmuring-anchorage-44494.herokuapp.com/" class="btn btn-secondary">Link</a>
+          </div>
         </div>
       </div>
       <div class="card" style={{width: '18rem'}}>

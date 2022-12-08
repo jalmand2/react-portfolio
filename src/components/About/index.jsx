@@ -11,11 +11,6 @@ const About = () => {
             </div>
             <div id="skills" class="content-section-b" style={{borderTop: '0'}}>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h2>My Skills</h2>
-                </div>
-            </div>
             <div class="row tworow">
             <div class="col-sm-4 wow fadeInDown text-center animated animated" style={{visibility: "visible"}}>
                 <iconify-icon class="rotate" icon="mdi:react" width="100" height="100"></iconify-icon>
