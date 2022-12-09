@@ -11,11 +11,21 @@
     height: 100px;
   }
 .about {
-  color: white;
+  color: var(--raisin-black);
   font-weight: 500;
 }
 .contact {
   color: var(--deep-taupe);
+}
+.resume:hover {
+  background-color: var(--bone);
+  color: var(--raisin-black);
+}
+a {
+  color: var(--raisin-black);
+}
+a:link {
+  color: var(--raisin-black);
 }
 
 
