@@ -1,9 +1,10 @@
 import React from 'react';
+import Capital from '../images/capital.jpg';
 
 const Contact = () => {
     return (
         <div class="container contact">
-            <div class="p-5 my-4 bg-light rounded-3 innerbox">
+            <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: 'url('+Capital+')', backgroundSize: 'cover', height: '100%', width: '100%'}}>
                 <h1>Contact Me</h1>
                 <section class="mb-4">
                     <p class="w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>

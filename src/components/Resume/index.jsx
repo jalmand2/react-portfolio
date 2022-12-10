@@ -1,14 +1,15 @@
 import React from 'react';
+import Union from '../images/unionstation.jpg';
 
 const Resume = () => {
     return (
         <div class="container about">
-        <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: "url(images/background.jpg)", backgroundSize: 'cover'}}>
+        <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: 'url('+Union+')', backgroundSize: 'cover'}}>
             <h1>Resume</h1>
             
             <p class="lead">Download my <a class= "resume" href="https://docs.google.com/document/d/1qBjxV3FcT0bMTI6ZRg1_ECFtkwx25wnC/edit?usp=sharing&ouid=108866049119222675329&rtpof=true&sd=true">Resume</a></p>
             <div class="row align-items-start">
-        <div class="col" style={{color: '#252323ff'}}>
+        <div class="col" style={{color: 'white'}}>
         <h3>Technical Languages:</h3>
         <ul>
         <li> HTML5</li>
@@ -27,7 +28,7 @@ const Resume = () => {
          <li>React.js</li>
         </ul>
         </div>
-        <div class="col" style={{color: '#252323ff'}}>
+        <div class="col" style={{color: 'white'}}>
         <h3>Applications:</h3>
         <ul>
             <li>VS Code</li>
