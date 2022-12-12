@@ -7,9 +7,13 @@ const About = () => {
     return (
         <div class="container abou">
             <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: 'url('+DarkBack+')', backgroundSize: 'cover'}}>
+                <div class="col">
                 <h1>About Me</h1>
-                <img src={ProfilePic} alt="profile" class="img-thumbnail"></img>
+                <img src={ProfilePic} alt="profile" style= {{ border: 'solid', borderColor: 'black', boxShadow: '5px 5px 5px 1px black'}}></img>
+                </div>
+                <div class="col">
                 <p class="lead">Hi! My name is Jessica Almand and I am an aspiring full-stack web developer. I am currently in training through the University of Central Florida where I am enrolled in the Full-Stack Web Development Coding Bootcamp. My anticipated graduation is set for December of 2022. I received my Bachelor of Science in Psychology in May of 2022 at Colorado State University. </p>
+            </div>
             </div>
             <div id="skills" class="content-section-b navBorder" style={{ borderRadius: '10px', marginBottom: '100px', marginTop: '100px'}}>
         <div class="container">

@@ -35,6 +35,7 @@ function App() {
                 <a style={{color: 'white'}} href="https://github.com/jalmand2"><iconify-icon icon="ri:github-fill" width="100" height="100"></iconify-icon></a>
                 <a style={{color: 'white'}} href="https://www.linkedin.com/in/jessicaalmand/"><iconify-icon icon="mdi:linkedin" width="100" height="100"></iconify-icon></a>
                 <a style={{color: 'white'}} href="https://www.facebook.com/jessica.almand/"><iconify-icon icon="ic:baseline-facebook" width="100" height="100"></iconify-icon></a>
+                <p style={{color: 'white'}}>© Developed by Jessica Almand</p>
                 </div>
               </footer>
     </div>
