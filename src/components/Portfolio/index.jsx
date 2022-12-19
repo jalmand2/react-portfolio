@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div class="card navBorder" style={{width: '18rem'}}>
-        <img class="card-img-top" src={Codemates} alt="Anime Tracker"></img>
+        <img class="card-img-top" src={AnimeTracker} alt="Anime Tracker"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Anime Tracker</h5>
           <p class="card-text text-center">This was a collaborative, fullstack project. </p>
@@ -32,7 +32,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div class="card navBorder" style={{width: '18rem'}}>
-        <img class="card-img-top" src={NoteTaker} alt="Note Taker"></img>
+        <img class="card-img-top" src={Codemates} alt="Note Taker"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Codemates</h5>
           <p class="card-text text-center">A MERN Fullstack Application.</p>
