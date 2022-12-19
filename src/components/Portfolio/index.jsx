@@ -1,7 +1,7 @@
 import React from 'react';
 import WavesOverWork from '../images/waves.png';
 import AnimeTracker from '../images/animetracker.png';
-import NoteTaker from '../images/notetaker.png';
+import Codemates from '../images/p3-screenshot.png';
 import WorkScheduler from '../images/workscheduler.jpg';
 import WeatherDash from '../images/weatherdashboard.png';
 import CodeQuiz from '../images/codingquiz.jpg';
@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div class="card navBorder" style={{width: '18rem'}}>
-        <img class="card-img-top" src={AnimeTracker} alt="Anime Tracker"></img>
+        <img class="card-img-top" src={Codemates} alt="Anime Tracker"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Anime Tracker</h5>
           <p class="card-text text-center">This was a collaborative, fullstack project. </p>
@@ -34,11 +34,11 @@ const Portfolio = () => {
       <div class="card navBorder" style={{width: '18rem'}}>
         <img class="card-img-top" src={NoteTaker} alt="Note Taker"></img>
         <div class="card-body">
-          <h5 class="card-title text-center">Note Taker</h5>
-          <p class="card-text text-center">A backend-focused application using Express.js.</p>
+          <h5 class="card-title text-center">Codemates</h5>
+          <p class="card-text text-center">A MERN Fullstack Application.</p>
           <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
-          <a href="https://github.com/jalmand2/Note-Taker" class="btn btn-secondary">Github</a>
-          <a href="https://murmuring-anchorage-44494.herokuapp.com/" class="btn btn-secondary">Link</a>
+          <a href="https://github.com/Tab-Y/codemates" class="btn btn-secondary">Github</a>
+          <a href="https://codemates-app.herokuapp.com/" class="btn btn-secondary">Link</a>
           </div>
         </div>
       </div>
