@@ -13,7 +13,9 @@ function App() {
   const [pageIndex, setPageIndex] = useState(0);
 
   return (
-    <div class="root bg-image" style={{ backgroundColor: '#252323ff' }}>
+
+    <div id="canvas" class="root bg-image" style={{ backgroundColor: '#252323ff' }}>
+     
       <Nav
         showAbout={() => setPageIndex(0)}
         showProjects={() => setPageIndex(1)}
@@ -38,9 +40,10 @@ function App() {
                 <p style={{color: 'white'}}>© Developed by Jessica Almand</p>
                 </div>
               </footer>
+
+              
     </div>
-                
-                
+                  
 );
 }
 

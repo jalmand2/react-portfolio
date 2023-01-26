@@ -8,8 +8,8 @@ import CodeQuiz from '../images/codingquiz.jpg';
 
 const Portfolio = () => {
     return (
-        <div class="container row container-fluid projectBg " style={{margin: 'auto', marginTop: '40px', alignContent: 'flex-start', justifyContent:'center'}}>
-        <div class="card navBorder" style={{width: '18rem'}}>
+        <div class="container row container-fluid" style={{margin: 'auto', marginTop: '40px', alignContent: 'flex-start', justifyContent:'center'}}>
+        <div class="card navBorder" style={{width: '14rem', margin: '20px'}}>
         <img class="card-img-top" src={WavesOverWork} alt="Waves over Work"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Waves over Work</h5>
@@ -20,7 +20,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div class="card navBorder" style={{width: '18rem'}}>
+      <div class="card navBorder" style={{width: '14rem', margin: '20px'}}>
         <img class="card-img-top" src={AnimeTracker} alt="Anime Tracker"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Anime Tracker</h5>
@@ -31,7 +31,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div class="card navBorder" style={{width: '18rem'}}>
+      <div class="card navBorder" style={{width: '14rem', margin: '20px'}}>
         <img class="card-img-top" src={Codemates} alt="Note Taker"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Codemates</h5>
@@ -42,7 +42,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div class="card navBorder" style={{width: '18rem'}}>
+      <div class="card navBorder" style={{width: '14rem', margin: '20px'}}>
         <img class="card-img-top" src={WorkScheduler} alt="Work Scheduler"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Work Scheduler</h5>
@@ -53,7 +53,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div class="card navBorder" style={{width: '18rem'}}>
+      <div class="card navBorder" style={{width: '14rem', margin: '20px'}}>
         <img class="card-img-top" src={WeatherDash} alt="Weather Dashboard"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Weather Dashboard</h5>
@@ -64,7 +64,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div class="card navBorder" style={{width: '18rem'}}>
+      <div class="card navBorder" style={{width: '14rem', margin: '20px'}}>
         <img class="card-img-top" src={CodeQuiz} alt="Coding Quiz"></img>
         <div class="card-body">
           <h5 class="card-title text-center">Coding Quiz</h5>

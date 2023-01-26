@@ -2,10 +2,28 @@ import React from 'react';
 import '../styles/app.css';
 import DarkBack from '../images/darkback.jpg';
 import ProfilePic from '../images/profile.jpg';
+// import { Fireworks } from '@fireworks-js/react';
 
 const About = () => {
     return (
         <div class="container abou">
+               {/* <Fireworks
+    options={{
+      rocketsPoint: {
+        min: 0,
+        max: 100
+      }
+    }}
+    style={{
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      position: 'fixed',
+      background: '#000',
+      
+    }}
+  />   */}
             <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: 'url('+DarkBack+')', backgroundSize: 'cover'}}>
                 <div class="col">
                 <h1>About Me</h1>
