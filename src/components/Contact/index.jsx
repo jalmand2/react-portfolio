@@ -50,6 +50,9 @@ const Contact = () => {
                             <div class="text-center text-md-left">
                                 <button class="btn btn-secondary" onclick="document.getElementById('contact-form').submit();">Send</button>
                             </div>
+                            <div>
+                                <h3 id="response"></h3>
+                            </div>
                             <div class="status"></div>
                         </div>
 
