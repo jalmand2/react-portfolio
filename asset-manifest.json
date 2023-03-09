@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c3b90470.css",
-    "main.js": "/static/js/main.95c224ab.js",
+    "main.js": "/static/js/main.b7174739.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/unionstation.jpg": "/static/media/unionstation.295af4fb8c8fbd9a5760.jpg",
     "static/media/capital.jpg": "/static/media/capital.52d36fcb67674128c9bf.jpg",
@@ -15,11 +15,11 @@
     "static/media/profile.jpg": "/static/media/profile.56dee86daaa32a78017f.jpg",
     "index.html": "/index.html",
     "main.c3b90470.css.map": "/static/css/main.c3b90470.css.map",
-    "main.95c224ab.js.map": "/static/js/main.95c224ab.js.map",
+    "main.b7174739.js.map": "/static/js/main.b7174739.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3b90470.css",
-    "static/js/main.95c224ab.js"
+    "static/js/main.b7174739.js"
   ]
 }
