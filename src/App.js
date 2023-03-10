@@ -8,7 +8,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-
+import { Fireworks } from '@fireworks-js/react';
 
 function App() {
   // const [pageIndex, setPageIndex] = useState(0);
@@ -16,6 +16,22 @@ function App() {
   return (
 
     <div id="canvas" class="root bg-image" style={{ backgroundColor: '#252323ff' }}>
+        {/* <Fireworks
+    options={{
+      rocketsPoint: {
+        min: 0,
+        max: 100
+      }
+    }}
+    style={{
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      position: 'fixed',
+      background: '#000',
+    }}
+  />   */}
       <Header />
       <About />
       <Portfolio />
