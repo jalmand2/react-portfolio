@@ -1,19 +1,17 @@
 import React from 'react';
-import '../styles/app.css';
+import '../About/about.css';
 import DarkBack from '../images/darkback.jpg';
-import ProfilePic from '../images/profile.jpg';
+import ProfilePic from '../images/profile.JPG';
 
 const About = () => {
     return (
         <div class="container">
             <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{ backgroundImage: 'url(' + DarkBack + ')', backgroundSize: 'cover' }}>
-                <div class="row">
-                    <h1>About Me</h1>
+                <div class="row bio" style={{textAlign: 'center'}}>
+                    <h1 class="col" style={{alignContent: 'center'}}>About Me</h1>
+                    <img class="col" src={ProfilePic} alt="profile" style={{  padding: 0, boxShadow: '5px 5px 5px 5px black', height: 500, width: 430, alignContent: 'center' }}></img>
                 </div>
-                <div className="row">
-                    <img src={ProfilePic} alt="profile" style={{ border: 'solid', borderColor: 'black', boxShadow: '5px 5px 5px 1px black' }}></img>
-                </div>
-                <div class="row">
+                <div class="row" style={{textAlign: 'center', paddingTop: 30}}>
                     <p class="lead">Hi! My name is Jessica Almand and I am an aspiring full-stack web developer. I am currently in training through the University of Central Florida where I am enrolled in the Full-Stack Web Development Coding Bootcamp. My anticipated graduation is set for December of 2022. I received my Bachelor of Science in Psychology in May of 2022 at Colorado State University. </p>
                 </div>
             </div>
