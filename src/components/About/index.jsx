@@ -1,20 +1,28 @@
 import React from 'react';
 import '../About/about.css';
-import DarkBack from '../images/darkback.jpg';
+import '../styles/app.css';
+import DarkBack from '../images/moutain.jpeg'
 import ProfilePic from '../images/profile.JPG';
 
 const About = () => {
     return (
         <div class="container">
-            <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{ backgroundImage: 'url(' + DarkBack + ')', backgroundSize: 'cover' }}>
+            <div class="about-pic p-5 rounded-3" style={{ backgroundImage: 'url(' + DarkBack + ')'}}>
                 <div class="row bio" style={{textAlign: 'center'}}>
-                    <h1 class="col" style={{alignContent: 'center'}}>About Me</h1>
-                    <img class="col" src={ProfilePic} alt="profile" style={{  padding: 0, boxShadow: '5px 5px 5px 5px black', height: 500, width: 430, alignContent: 'center' }}></img>
+                    <h1 class="col title" style={{alignContent: 'center'}}>Hi, I'm Jessica. I'm a full-stack web developer.</h1>
                 </div>
-                <div class="row" style={{textAlign: 'center', paddingTop: 30}}>
-                    <p class="lead">Hi! My name is Jessica Almand and I am an aspiring full-stack web developer. I am currently in training through the University of Central Florida where I am enrolled in the Full-Stack Web Development Coding Bootcamp. My anticipated graduation is set for December of 2022. I received my Bachelor of Science in Psychology in May of 2022 at Colorado State University. </p>
-                </div>
+                
             </div>
+            <div class="container">
+            <div class="row bio-para" style={{paddingTop: 30}}>
+                    <h1 class="col-9">A Little About Me</h1>
+                    <p class="col-4">Hi! My name is Jessica Almand and I am an aspiring full-stack web developer. I received my certifcation of completion from the University of Central Florida where I am enrolled in the Full-Stack Web Development Coding Bootcamp. My anticipated graduation is set for December of 2022. I received my Bachelor of Science in Psychology in May of 2022 at Colorado State University. </p>
+                    <img class="col-6 profile-pic" src={ProfilePic} alt="profile" style={{  padding: 0, boxShadow: '5px 5px 5px 5px black', alignContent: 'center' }}></img>
+                </div>
+                </div>
+                <div class="row">
+                    <h1 style={{color: 'white'}}>My Skills</h1>
+                    </div>
             <div id="skills" class="content-section-b navBorder" style={{ borderRadius: '10px', marginBottom: '100px', marginTop: '100px' }}>
                 <div class="container">
                     <div class="row">

@@ -12,21 +12,6 @@ const Contact = () => {
                         <div class="col-md-9 mb-md-0 mb-5">
                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="name" name="name" class="form-control"></input>
-                                                <label for="name" class="">Your name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="email" name="email" class="form-control"></input>
-                                                <label for="email" class="">Your email</label>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row">
                                     <div class="col-md-12">
                                         <div class="md-form mb-0">
                                             <input type="text" id="subject" name="subject" class="form-control"></input>

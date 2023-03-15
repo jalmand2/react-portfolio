@@ -32,9 +32,9 @@ a {
   color: var(--raisin-black);
 }
 a:link {
-  color: var(--raisin-black);
+  color: white;
 }
-.navBorder, .name {
+.navBorder {
   position: relative;
   background: linear-gradient(var(--bone), var(--isabelline), var(--slate-gray));
   border-radius: 3px;
@@ -52,5 +52,6 @@ a:link {
     filter: hue-rotate(360deg);
   }
 }
+
 
 

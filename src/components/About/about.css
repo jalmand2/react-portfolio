@@ -2,3 +2,35 @@
     display: flex;
     align-items: center;
 }
+
+.about-pic {
+    height: 500px;
+    border: solid white;
+    border-width: 4px;
+    position: relative;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio {
+    background-color: tan;
+    background-size: auto;
+    opacity: 0.5;
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+
+.bio:hover {
+    opacity: 1;
+    width: ;
+    
+}
+
+.bio-para {
+    display: flex;
+    align-items: center;
+    color: white;
+}

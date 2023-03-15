@@ -1,0 +1,18 @@
+/* .name {
+    color: white;
+} */
+.header {
+    position: sticky;
+    background-color: tan;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+iconify-icon {
+    color: black;
+}
+iconify-icon:hover {
+    opacity: 0.2;
+}
+
