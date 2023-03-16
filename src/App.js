@@ -1,21 +1,19 @@
 import React from 'react';
 
-import '../src/components/styles/app.css';
-
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import { Fireworks } from '@fireworks-js/react';
+
 
 function App() {
   // const [pageIndex, setPageIndex] = useState(0);
 
   return (
 
-    <div id="canvas" class="root bg-image" style={{ backgroundColor: '#252323ff' }}>
+    <div id="canvas" class="root bg-image" style={{ backgroundColor: '#9CAF88' }}>
         {/* <Fireworks
     options={{
       rocketsPoint: {

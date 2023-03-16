@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../styles/app.css';
+import Logo from '../images/JA Logo.png';
 import '../Header/header.css';
 
 
@@ -11,8 +11,8 @@ const Header = () => {
     //     });
     //   }
     return (
-            <div class="header container-fluid">
-                <h1 class="name">Jessica Almand</h1>
+            <div class="header ">
+                    <img class="logo" src={Logo} alt="logo"></img>
                 <div>
                     <a href="https://github.com/jalmand2"><iconify-icon icon="ri:github-fill" width="50" height="100"></iconify-icon></a>
                     <a href="https://www.linkedin.com/in/jessicaalmand/"><iconify-icon icon="mdi:linkedin" width="50" height="100"></iconify-icon></a>

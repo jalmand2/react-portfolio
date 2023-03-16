@@ -1,18 +1,26 @@
-/* .name {
-    color: white;
-} */
+.name {
+    font-family: 'La Belle Aurore';
+    color: black;
+    font-size: 60px;
+}
 .header {
     position: sticky;
-    background-color: tan;
+    padding: 0;
+    background-color:#C9B178;
     top: 0;
     z-index: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 iconify-icon {
     color: black;
 }
 iconify-icon:hover {
     opacity: 0.2;
+}
+.logo {
+    width: 200px;
+    height: 200px;
 }
 
