@@ -15,8 +15,8 @@ const About = () => {
             <div class="container">
                 <div class="row bio-para" style={{ paddingTop: 30 }}>
                     <h1 class="text-box">A Little About Me</h1>
-                    <p></p>
                     <img class="col-6 profile-pic" src={ProfilePic} alt="profile" style={{ padding: 0, boxShadow: '5px 5px 5px 5px black', alignContent: 'center' }}></img>
+                    <p class="text-box">Hi, my name is Jessica. I currently reside in Cocoa, Florida but consider myself to be from Colorado. As other military brats understand, where you’re from is never an easy question to answer when you grew up moving around a lot. Out of college, I planned to pursue a career in Occupational Therapy with a background in psychology. I shifted gears after completing my degree, applied for a job in software development with no experience and finally felt like I found the career for me. I love this field, I feel like it’s a great field that embraces my military-lifestyle-fueled way of life in that every day as a developer is a different day. I aim to develop clean and easy-to-use applications and strive to sharpen my skills to the best of my ability.</p>
                 </div>
             </div>
             <div class="row">

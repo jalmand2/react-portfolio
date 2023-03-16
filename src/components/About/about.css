@@ -1,6 +1,6 @@
 .about-pic {
     height: 700px;
-    border: solid;
+    border: solid rgb(52, 43, 30);
     border-width: 10px;
     position: relative;
     /* min-height: 500px; */
@@ -28,11 +28,13 @@
 .text-box {
     border-radius: 3px;
     background-color: #C9B178;
+    margin-top: 10px;
     /* font-family: 'La Belle Aurore'; */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: end;
+    text-align: center;
 }
 
 @keyframes showMe {
@@ -47,17 +49,12 @@
 
 .bio-para {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
 }
-
-.introDiv {
-    margin: 0px;
-}
-
-.skills-cards {
+/* .skills-cards {
     background-color: #aec496;
     position: relative;
     background: #cae4ae;
@@ -66,4 +63,10 @@
     box-shadow: 5px 5px 5px 1px black;
     font-family: 'La Belle Aurore';
     padding: 5px;
+} */
+.row {
+    margin-top: 20px;
+}
+.card {
+    background-color: #C9B178;
 }
