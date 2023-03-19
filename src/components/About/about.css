@@ -68,5 +68,6 @@
     margin-top: 20px;
 }
 .card {
-    background-color: #C9B178;
+    background-color: #C9B178!important;
+    width: fit-content;
 }

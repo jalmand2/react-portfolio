@@ -10,6 +10,9 @@ import CodeQuiz from '../images/codingquiz.jpg';
 const Portfolio = () => {
   return (
     <div class="container row container-fluid" style={{ margin: 'auto', marginTop: '40px', alignContent: 'flex-start', justifyContent: 'center' }}>
+       <div class="row">
+                <h1 style={{ color: 'rgb(52, 43, 30)', textAlign: 'center' }}>My Work</h1>
+            </div>
       <div class="card navBorder" style={{ width: '14rem', margin: '20px' }}>
         <img class="card-img-top animate glow delay-1" src={WavesOverWork} alt="Waves over Work"></img>
         <div class="card-body animate glow delay-1">
