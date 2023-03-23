@@ -1,5 +1,6 @@
 import React from 'react';
 import Capital from '../images/capital.jpg';
+import '../Contact/contact.css';
 
 const Contact = () => {
     return (
@@ -7,7 +8,7 @@ const Contact = () => {
             <div class="p-5 my-4 bg-light rounded-3 innerbox" style={{backgroundImage: 'url('+Capital+')', backgroundSize: 'cover', height: '100%', width: '100%'}}>
                 <h1>Contact Me</h1>
                 <section class="mb-4">
-                    <p class="w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+                    <p class="w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. Or email me directly at <a class="email-link" href="mailto:jlalmand27@gmail.com">jlalmand27@gmail.com</a>.</p>
                     <div class="row">
                         <div class="col-md-9 mb-md-0 mb-5">
                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -36,7 +37,7 @@ const Contact = () => {
                                 <button class="btn btn-secondary" onclick="document.getElementById('contact-form').submit();">Send</button>
                             </div>
                             <div>
-                                <h3 id="response"></h3>
+                                {/* <h3 id="response"></h3> */}
                             </div>
                             <div class="status"></div>
                         </div>

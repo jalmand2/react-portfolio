@@ -1,0 +1,8 @@
+.resume {
+    text-decoration: none;
+    color: white;
+}
+.resume:hover {
+    text-decoration: underline;
+    color: white;
+}

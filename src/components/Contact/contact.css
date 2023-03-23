@@ -1,0 +1,8 @@
+.email-link {
+    text-decoration: none;
+    color: black;
+}
+.email-link:hover {
+    color: black;
+    text-decoration: underline;
+}

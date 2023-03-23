@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -13,7 +13,7 @@ function App() {
 
   return (
 
-    <div id="canvas" class="root bg-image" style={{ backgroundColor: '#9CAF88' }}>
+    <div id="canvas" class="root" style={{backgroundColor: '#8fb181'}}>
         {/* <Fireworks
     options={{
       rocketsPoint: {

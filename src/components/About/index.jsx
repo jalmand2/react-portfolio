@@ -1,7 +1,7 @@
 import React from 'react';
 import '../About/about.css';
 import DarkBack from '../images/background.jpg';
-import ProfilePic from '../images/profile.JPG';
+import ProfilePic from '../images/profile.jpg';
 
 const About = () => {
     return (
@@ -20,52 +20,52 @@ const About = () => {
                 </div>
             </div>
            
-            <div id="skills" class="content-section-b " style={{ borderRadius: '10px', marginBottom: '100px', marginTop: '100px' }}>
+            <div style={{ borderRadius: '10px', marginBottom: '100px', marginTop: '100px' }}>
             <div class="row">
-                <h1 style={{ color: 'rgb(52, 43, 30)', textAlign: 'center' }}>My Skills</h1>
+                <h1 class="text-box" style={{ color: 'rgb(52, 43, 30)', textAlign: 'center' }}>My Skills</h1>
             </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="card text-center">
+                <div class="container skills">
+                    <div class="row skills-row">
+                        <div class="col card text-center">
                             <iconify-icon class="rotate" icon="mdi:react" width="130" height="100"></iconify-icon>
                             <h4>React</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon class="rotate" icon="mdi:language-javascript" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:language-javascript" width="130" height="100"></iconify-icon>
                             <h4>JavaScript</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon class="rotate" icon="mdi:language-html5" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:language-html5" width="130" height="100"></iconify-icon>
                             <h4>HTML</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon class="rotate" icon="tabler:brand-css3" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon class="rotate" icon="tabler:brand-css3" width="130" height="100"></iconify-icon>
                             <h4>CSS</h4>
                         </div>
                         </div>
-                        <div class="row">
-                        <div class="card text-center">                            <iconify-icon class="rotate" icon="mdi:git" width="130" height="100"></iconify-icon>
+                        <div class="row skills-row">
+                        <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:git" width="130" height="100"></iconify-icon>
                             <h4>Git</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon class="rotate" icon="simple-icons:mongodb" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon class="rotate" icon="simple-icons:mongodb" width="130" height="100"></iconify-icon>
                             <h4>MongoDB</h4>
                         </div>
                         
-                        <div class="card text-center">                            <iconify-icon class="rotate" icon="mdi:graphql" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:graphql" width="130" height="100"></iconify-icon>
                             <h4>GraphQL</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon class="rotate" icon="mdi:bootstrap" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:bootstrap" width="130" height="100"></iconify-icon>
                             <h4>Bootstrap</h4>
                         </div>
                         </div>
-                        <div class="row">
-                        <div class="card text-center">                            <iconify-icon icon="bxl:heroku" width="130" height="100"></iconify-icon>
+                        <div class="row skills-row">
+                        <div class="col card text-center">                            <iconify-icon icon="bxl:heroku" width="130" height="100"></iconify-icon>
                             <h4>Heroku</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon icon="tabler:brand-mysql" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon icon="tabler:brand-mysql" width="130" height="100"></iconify-icon>
                             <h4>MySQL</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon icon="simple-icons:express" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon icon="simple-icons:express" width="130" height="100"></iconify-icon>
                             <h4>Express</h4>
                         </div>
-                        <div class="card text-center">                            <iconify-icon icon="la:node-js" width="130" height="100"></iconify-icon>
+                        <div class="col card text-center">                            <iconify-icon icon="la:node-js" width="130" height="100"></iconify-icon>
                             <h4>Node</h4>
                             </div>
                         </div>
