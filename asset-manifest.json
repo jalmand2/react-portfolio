@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3b90470.css",
-    "main.js": "/static/js/main.b7174739.js",
+    "main.css": "/static/css/main.b1458b24.css",
+    "main.js": "/static/js/main.734da3ed.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/unionstation.jpg": "/static/media/unionstation.295af4fb8c8fbd9a5760.jpg",
     "static/media/capital.jpg": "/static/media/capital.52d36fcb67674128c9bf.jpg",
     "static/media/waves.png": "/static/media/waves.a51935a75cce9e9747f3.png",
-    "static/media/darkback.jpg": "/static/media/darkback.1ef7cc1cc82e09becf58.jpg",
+    "static/media/background.jpg": "/static/media/background.20cd5c21b2d23e91308e.jpg",
     "static/media/weatherdashboard.png": "/static/media/weatherdashboard.2bcbe8349edd6d5e10cb.png",
     "static/media/workscheduler.jpg": "/static/media/workscheduler.15b39c5a01146d6abe5a.jpg",
     "static/media/animetracker.png": "/static/media/animetracker.77fea02d3258abf27c6c.png",
     "static/media/codingquiz.jpg": "/static/media/codingquiz.64f1a68f6b842d6b4436.jpg",
+    "static/media/Jessica Almand Resume.pdf": "/static/media/Jessica Almand Resume.8fe4038a31d77c8f1c76.pdf",
     "static/media/p3-screenshot.png": "/static/media/p3-screenshot.558c113e3d64268ee6ff.png",
-    "static/media/profile.jpg": "/static/media/profile.56dee86daaa32a78017f.jpg",
+    "static/media/JA Logo.png": "/static/media/JA Logo.f3f2c35891ac5067cdd8.png",
+    "static/media/profile.jpg": "/static/media/profile.37562b4e6e6408702765.jpg",
     "index.html": "/index.html",
-    "main.c3b90470.css.map": "/static/css/main.c3b90470.css.map",
-    "main.b7174739.js.map": "/static/js/main.b7174739.js.map",
+    "main.b1458b24.css.map": "/static/css/main.b1458b24.css.map",
+    "main.734da3ed.js.map": "/static/js/main.734da3ed.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3b90470.css",
-    "static/js/main.b7174739.js"
+    "static/css/main.b1458b24.css",
+    "static/js/main.734da3ed.js"
   ]
 }
