@@ -2,4 +2,4 @@
 
 Link to portfolio: [Jessica Almand Portfolio](https://www.jalmand.com)
 
-🚧 Currently under construction 🚧
+
