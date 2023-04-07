@@ -77,8 +77,12 @@
     margin-left: 0!important;
     margin: 20px;
 }
-/* @media screen (max-width: 320px) {
-    .skills {
+.card-headers {
+    font-size: 3.5vh;
+}
+.card {
+    margin: 1px;
+    border: solid  rgb(52, 43, 30);
+    border-width: 3px;
+}
 
-    } */
-/* } */

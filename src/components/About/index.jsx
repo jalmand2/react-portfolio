@@ -28,45 +28,45 @@ const About = () => {
                     <div class="row skills-row">
                         <div class="col card text-center">
                             <iconify-icon class="rotate" icon="mdi:react" width="130" height="100"></iconify-icon>
-                            <h4>React</h4>
+                            <h4 class="card-headers">React</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:language-javascript" width="130" height="100"></iconify-icon>
-                            <h4>JavaScript</h4>
+                            <h4 class="card-headers">JavaScript</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:language-html5" width="130" height="100"></iconify-icon>
-                            <h4>HTML</h4>
+                            <h4 class="card-headers">HTML</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon class="rotate" icon="tabler:brand-css3" width="130" height="100"></iconify-icon>
-                            <h4>CSS</h4>
+                            <h4 class="card-headers">CSS</h4>
                         </div>
                         </div>
                         <div class="row skills-row">
                         <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:git" width="130" height="100"></iconify-icon>
-                            <h4>Git</h4>
+                            <h4 class="card-headers">Git</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon class="rotate" icon="simple-icons:mongodb" width="130" height="100"></iconify-icon>
-                            <h4>MongoDB</h4>
+                            <h4 class="card-headers">MongoDB</h4>
                         </div>
                         
                         <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:graphql" width="130" height="100"></iconify-icon>
-                            <h4>GraphQL</h4>
+                            <h4 class="card-headers">GraphQL</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon class="rotate" icon="mdi:bootstrap" width="130" height="100"></iconify-icon>
-                            <h4>Bootstrap</h4>
+                            <h4 class="card-headers">Bootstrap</h4>
                         </div>
                         </div>
                         <div class="row skills-row">
                         <div class="col card text-center">                            <iconify-icon icon="bxl:heroku" width="130" height="100"></iconify-icon>
-                            <h4>Heroku</h4>
+                            <h4 class="card-headers">Heroku</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon icon="tabler:brand-mysql" width="130" height="100"></iconify-icon>
-                            <h4>MySQL</h4>
+                            <h4 class="card-headers">MySQL</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon icon="simple-icons:express" width="130" height="100"></iconify-icon>
-                            <h4>Express</h4>
+                            <h4 class="card-headers">Express</h4>
                         </div>
                         <div class="col card text-center">                            <iconify-icon icon="la:node-js" width="130" height="100"></iconify-icon>
-                            <h4>Node</h4>
+                            <h4 class="card-headers">Node</h4>
                             </div>
                         </div>
                     </div>
